@@ -1,0 +1,115 @@
+.featured_product {
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid #E4E4E4;
+    border-bottom: 4px solid #E4E4E4;
+    padding: 36px 0px;
+  
+    
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      &--cart-btn {
+        color: white;
+        background-color: #000000;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.07em;
+        line-height: 25px;
+        font-size: 20px;
+        padding: 13px 31.5px;
+      }
+    }
+  
+    &__product-name{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 35px;
+    }
+  
+    &__product-category{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      color: #656565;
+      text-transform: capitalize;
+      line-height: 24px;
+    }
+  
+    &__product-desc{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 150%;
+      width: 75%;
+      color: #656565;
+    }
+  
+    &__product-details{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 150%;
+      color: #656565;
+    }
+  
+    &__about-title{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 24px;
+    }
+  
+    &__image-container {
+      width: 100%;
+      position: relative;
+      margin: 29px 0px;
+      box-sizing: border-box;
+      height: 34.5rem;
+  
+      .featured_product__image {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+  
+      .featured_product__tag {
+        position: absolute;
+        background: #ffffff;
+        left: 0;
+        bottom: 0;
+        padding: 20px 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+    &__bottom{
+      text-align: right!important;
+  }
+  
+    @media screen and (max-width: 1023px){
+      &__bottom{
+          text-align: left!important;
+      }
+    }
+  
+  
+    &__recommended-product{
+      height: 147px;
+  
+      & img{
+          height: 100%;
+          width: 100%;
+          max-width: 100%;
+          object-fit: cover;
+      }
+    }
+  }
+  

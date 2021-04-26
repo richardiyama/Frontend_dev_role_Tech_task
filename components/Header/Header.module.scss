@@ -1,0 +1,20 @@
+.header{
+    position: relative;
+    &__shopping_cart{
+        position: relative;
+
+        & img{
+            height: 75%;
+        }
+
+        &--length{
+            color: white;
+            background-color: #000000;
+            display: inline;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding: .2rem .5rem;
+        }
+    }
+}

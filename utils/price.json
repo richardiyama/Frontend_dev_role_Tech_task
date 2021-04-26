@@ -1,0 +1,20 @@
+{
+    "price":[
+        {
+            "label":"Lower Than $20",
+            "value":[0,20]
+        },
+        {
+            "label":"$20 - $100",
+            "value":[20,100]
+        },
+        {
+            "label":"$100 - $200",
+            "value":[100,200]
+        },
+        {
+            "label":"More Than $200",
+            "value":[200,0]
+        }
+    ]
+}

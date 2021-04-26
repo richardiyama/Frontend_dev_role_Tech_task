@@ -1,0 +1,33 @@
+.filter {
+    &__title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .filter_input__container {
+    margin-bottom: 12px;
+  
+    & input {
+      display: none;
+    }
+  
+    .filter_input__label {
+      text-transform: capitalize;
+      padding-left: 30px;
+      background-image: url(../../public/unchecked.svg);
+      background-position: left;
+      background-size: 16px;
+      font-size: 19px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+  
+    & input:checked + .filter_input__label {
+        background-image: url(../../public/checked.svg) !important;
+    }
+  }
+  

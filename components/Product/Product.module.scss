@@ -1,0 +1,157 @@
+.product {
+    &__top {
+      padding: 35px 0px;
+      & .product__header {
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+  
+        &-title {
+          font-size: 23px;
+          line-height: 33px;
+          display: inline-flex;
+  
+          &--left {
+            font-weight: 700;
+          }
+  
+          &--right {
+            color: #9b9b9b;
+          }
+        }
+        &-select {
+          border: 1.7px solid black;
+          padding: 0.2rem;
+        }
+      }
+    }
+    &__bottom {
+      padding: 65px 0px;
+    }
+  }
+  
+  .sortby {
+    font-size: 18px;
+    line-height: 24px;
+    color: #9b9b9b !important;
+  }
+  
+  .sorticon {
+    font-size: 18px;
+    line-height: 24px;
+    color: #9b9b9b !important;
+  
+    & .up,
+    .down {
+      cursor: pointer;
+  
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  
+  .pagination-container {
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    a {
+      padding: 10px;
+      margin: 2px;
+      border-radius: 5px;
+      font-size: 18px;
+      color: #b4b4b4;
+      cursor: pointer;
+    }
+  }
+  
+  .pagination--active a {
+    cursor: default;
+    pointer-events: none;
+    color: #000000;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background-image: url(../../public/down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+  
+  .prev-container {
+    transform: rotate(90deg);
+  }
+  
+  .next-container {
+    transform: rotate(-90deg);
+  }
+  
+  .active {
+    color: #000000;
+  }
+  
+  .mobile__filterContainer {
+    position: relative;
+  }
+  .mobile__filter {
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 4px solid #e4e4e4;
+    padding: 30px 25px 0px 25px;
+    height: 600px;
+    overflow: hidden;
+  
+    &-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+    }
+  
+    &-body{
+        height: 80%;
+       overflow-y: scroll;
+       overflow: auto;
+    }
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 4px solid #e4e4e4;
+      margin-left: -25px;
+      margin-right: -25px;
+      z-index: 5;
+      padding: 1rem .7rem;
+  
+    }
+  }
+  
+  .clearBtn {
+      width: 124px;
+      height: 48px;
+      background: #ffffff;
+      border: 3px solid #000000;
+      box-sizing: border-box;
+      color: #000000;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  
+    .saveBtn {
+      width: 125px;
+      height: 48px;
+      cursor: pointer;
+      background: #000000;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  

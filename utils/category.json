@@ -1,0 +1,34 @@
+{
+    "category":[
+        {
+            "label":"Premium",
+            "value":"premium"
+        },
+        {
+            "label":"People",
+            "value":"people"
+        },
+
+       
+        {
+            "label":"Food",
+            "value":"food"
+        },
+        {
+            "label":"Pets",
+            "value":"pets"
+        },
+        {
+            "label":"Landmarks",
+            "value":"landmarks"
+        },
+        {
+            "label":"Cities",
+            "value":"cities"
+        },
+        {
+            "label":"Nature",
+            "value":"nature"
+        }
+    ]
+}
