@@ -1,3 +1,27 @@
+# Poc Ecommerce App
+A Basic Ecommerce App
+## Featured Product
+
+<img src="https://github.com/richardiyama/Frontend_dev_role_Tech_task/blob/master/public/images/frondend_dev_task1.png" height="400" />
+
+
+
+
+<img src="https://github.com/richardiyama/Frontend_dev_role_Tech_task/blob/master/public/images/frontend_dev_task2.png" height="400" />
+
+## Product List
+
+<img src="https://github.com/richardiyama/Frontend_dev_role_Tech_task/blob/master/public/images/frontend_dev_task3.png" height="400" />
+
+<img src="https://github.com/richardiyama/Frontend_dev_role_Tech_task/blob/master/public/images/frontend_dev_task4.png" height="400" />
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
